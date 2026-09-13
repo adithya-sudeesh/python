@@ -1,0 +1,8 @@
+numbers=input("enter the values").split()
+print("list is", numbers)
+my_tuple = tuple(numbers)
+print("tuple is", my_tuple)
+print("total elements", len(numbers))
+print("first element", numbers[0])
+print("last element", numbers[-1])
+print("reverse", numbers[::-1])
